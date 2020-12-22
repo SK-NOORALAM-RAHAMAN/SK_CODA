@@ -11,7 +11,7 @@ while(i<=10)  :
     you=str(input("\nChoose *Snake* or *Water* or *Gun* as\ns||w||g:"))
 
     if com==you:
-        #print(f"Its a Draw, \nTry again..!\n{com} {you}")
+        #print(f"Its a Draw, \nTry again..!\n{com} {you}");
         i+=1 #i count Draw situation else it will run more then 10 times
 
     elif (you=='s' and com=='w') or (you=='g' and com=='s')\
@@ -22,7 +22,7 @@ while(i<=10)  :
 
     elif (com=='s' and you=='w') or (com=='g' and you=='s')\
          or (com == 'w' and you == 'g')  :
-        #print(f"COM win !!!com:{com} you:{you}")
+        #print(f"COM win !!!com:{com} you:{you}");
         i += 1
         c+=1
 
