@@ -16,7 +16,7 @@ while(i<=10)  :
 
     elif (you=='s' and com=='w') or (you=='g' and com=='s')\
          or (you == 'w' and com == 'g')  :
-        #print(f"you win!!! com:{com} you:{you}")
+        #print(f"you win!!! com:{com} you:{you}"
         i+=1
         y+=1
 
